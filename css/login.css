@@ -1,0 +1,124 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(232, 236, 238);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #323232;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.painel {
+    background-color: #fff;
+    padding: 10px;
+    width: 400px;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 110%;
+    border: 1px solid rgb(199, 205, 212);
+}
+
+input[type="button"] {
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    width: 282px;
+    height: 50px;
+    padding: 10px;
+    background-color: indianred ;
+    cursor: pointer;
+    color: #fff;
+    font-size: 110%;
+}
+
+input {
+    border: 2px solid indianred ;
+    padding: 20px;
+    margin: 5px;
+}
+
+.header {
+    display: flex;
+    background-color: indianred ;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.logo {
+    height: 140px;
+    width: 190px;
+}
+
+footer {
+    background-color: indianred ;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    bottom: 0;
+    position: fixed;
+}
+
+.Facebook {
+    margin: 0px 10px;
+}
+
+.Instagram {
+    margin: 0px 10px;
+}
+
+.Google {
+    margin: 0px 10px;
+    
+}
+
+.conecte {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid rgb(199, 205, 212);
+    background-color: #fff;
+    width: 410px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Facebook:hover img {
+    width: 70px;
+    height: 70px;
+}
+
+.Instagram:hover img {
+    width: 70px;
+    height: 70px;
+}
+
+.Google:hover img {
+    width: 70px;
+    height: 70px;
+}
+
+@media only screen and (min-height: 380px) {
+    .painel {
+        margin-top: 120px;
+    }
+}
